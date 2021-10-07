@@ -1,0 +1,43 @@
+{
+  "name": "karaole",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@eva-design/eva": "^2.1.1",
+    "@react-navigation/native": "^6.0.4",
+    "@react-navigation/native-stack": "^6.2.2",
+    "@ui-kitten/components": "^5.1.1",
+    "react": "17.0.2",
+    "react-native": "0.66.0",
+    "react-native-app-intro-slider": "^4.0.4",
+    "react-native-banner-carousel": "^1.0.3",
+    "react-native-bootsplash": "^3.2.6",
+    "react-native-image-slider-box": "^1.1.8",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.8.0",
+    "react-native-snap-carousel": "^3.9.1",
+    "react-native-svg": "^12.1.1",
+    "react-native-timed-slideshow": "^1.2.1",
+    "react-native-webview": "^11.14.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/runtime": "^7.15.4",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "babel-jest": "^27.2.4",
+    "eslint": "^7.32.0",
+    "jest": "^27.2.4",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
